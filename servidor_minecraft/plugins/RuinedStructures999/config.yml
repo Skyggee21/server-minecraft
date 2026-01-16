@@ -1,0 +1,226 @@
+debug: false
+
+disabled-worlds:
+  - "world_the_end"
+
+structures:
+  piglin_village:
+    enabled: true
+    spawn-chance-per-chunk: 0.14
+    world-specific-spawn-chance:
+      world_nether: 0.20
+      world: 0.05
+    min-spawn-y: 10
+    max-spawn-y: 120
+    allowed-biomes:
+      - "BASALT_DELTAS"
+      - "CRIMSON_FOREST"
+      - "NETHER_WASTES"
+      - "SOUL_SAND_VALLEY"
+      - "WARPED_FOREST"
+
+  collapsed_watchtower:
+    enabled: true
+    spawn-chance-per-chunk: 0.12
+    min-spawn-y: 60
+    max-spawn-y: 150
+    allowed-biomes:
+      - "PLAINS"
+      - "FOREST"
+      - "TAIGA"
+      - "DESERT"
+      - "SAVANNA"
+      - "BIRCH_FOREST"
+      - "DARK_FOREST"
+      - "SWAMP"
+
+  ruined_house:
+    enabled: true
+    spawn-chance-per-chunk: 0.1
+    min-spawn-y: 60
+    max-spawn-y: 100
+    allowed-biomes:
+      - "PLAINS"
+      - "FOREST"
+      - "TAIGA"
+      - "BIRCH_FOREST"
+      - "DARK_FOREST"
+    loot-table:
+      - item: BREAD
+        min-amount: 2
+        max-amount: 5
+        chance: 20
+      - item: WOODEN_SWORD
+        chance: 10
+      - item: COAL
+        min-amount: 2
+        max-amount: 5
+        chance: 15
+      - item: STICK
+        min-amount: 3
+        max-amount: 6
+        chance: 10
+      - item: WOODEN_AXE
+        chance: 5
+      - item: WOODEN_PICKAXE
+        chance: 5
+      - item: APPLE
+        chance: 10
+      - item: BOOK
+        chance: 5
+      - item: WHEAT_SEEDS
+        min-amount: 2
+        max-amount: 4
+        chance: 5
+      - item: ENCHANTED_BOOK
+        enchantments:
+          - type: EFFICIENCY
+            level: 1
+        chance: 2
+      - item: ENCHANTED_BOOK
+        enchantments:
+          - type: UNBREAKING
+            level: 1
+        chance: 2
+
+  sunken_shrine:
+    enabled: true
+    spawn-chance-per-chunk: 0.05
+    min-spawn-y: 20
+    max-spawn-y: 60
+    allowed-biomes:
+      - "OCEAN"
+      - "DEEP_OCEAN"
+      - "RIVER"
+
+  bandit_camp:
+    enabled: true
+    spawn-chance-per-chunk: 0.08
+    min-spawn-y: 60
+    max-spawn-y: 100
+    allowed-biomes:
+      - "PLAINS"
+      - "FOREST"
+      - "TAIGA"
+      - "SAVANNA"
+
+  pillager_castle:
+    enabled: true
+    spawn-chance-per-chunk: 0.02
+    min-spawn-y: 60
+    max-spawn-y: 120
+    allowed-biomes:
+      - "PLAINS"
+      - "FOREST"
+      - "TAIGA"
+
+  abandoned_quarry:
+    enabled: true
+    spawn-chance-per-chunk: 0.04
+    min-spawn-y: 40
+    max-spawn-y: 90
+    allowed-biomes:
+      - "WINDSWEPT_HILLS"
+      - "STONY_SHORE"
+      - "WINDSWEPT_GRAVELLY_HILLS"
+
+  haunted_graveyard:
+    enabled: true
+    spawn-chance-per-chunk: 0.05
+    min-spawn-y: 60
+    max-spawn-y: 100
+    allowed-biomes:
+      - "PLAINS"
+      - "FOREST"
+      - "TAIGA"
+      - "SWAMP"
+
+  sunken_graveyard:
+    enabled: true
+    spawn-chance-per-chunk: 0.06
+    min-spawn-y: 20
+    max-spawn-y: 60
+    allowed-biomes:
+      - "OCEAN"
+      - "DEEP_OCEAN"
+      - "RIVER"
+      - "SWAMP"
+
+  collapsed_mineshaft:
+    enabled: true
+    spawn-chance-per-chunk: 0.08
+    min-spawn-y: -10
+    max-spawn-y: 50
+    allowed-biomes: [] # All biomes
+    loot-table:
+      - item: IRON_INGOT
+        min-amount: 1
+        max-amount: 3
+        chance: 10
+      - item: BREAD
+        min-amount: 2
+        max-amount: 6
+        chance: 10
+      - item: COAL
+        min-amount: 2
+        max-amount: 9
+        chance: 50
+      - item: GOLD_INGOT
+        min-amount: 5
+        max-amount: 9
+        chance: 10
+      - item: RAW_IRON
+        min-amount: 4
+        max-amount: 7
+        chance: 10
+      - item: ENCHANTED_BOOK
+        enchantments:
+          - type: SHARPNESS
+            level: 1
+        chance: 10
+
+  desert_temple_ruins:
+    enabled: true
+    spawn-chance-per-chunk: 0.03
+    min-spawn-y: 60
+    max-spawn-y: 90
+    allowed-biomes:
+      - "DESERT"
+      - "DESERT_HILLS"
+      - "DESERT_LAKES"
+      - "BADLANDS"
+    loot-table:
+      - item: EMERALD
+        min-amount: 1
+        max-amount: 4
+        chance: 20
+      - item: GOLD_INGOT
+        min-amount: 2
+        max-amount: 7
+        chance: 25
+      - item: DIAMOND
+        min-amount: 1
+        max-amount: 1
+        chance: 5
+      - item: BONE
+        min-amount: 3
+        max-amount: 8
+        chance: 30
+      - item: ROTTEN_FLESH
+        min-amount: 3
+        max-amount: 8
+        chance: 30
+      - item: SADDLE
+        min-amount: 1
+        max-amount: 1
+        chance: 10
+      - item: ENCHANTED_BOOK
+        enchantments:
+          - type: MENDING
+            level: 1
+        chance: 5
+      - item: ENCHANTED_BOOK
+        enchantments:
+          - type: UNBREAKING
+            level: 3
+        chance: 5

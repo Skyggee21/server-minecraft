@@ -1,0 +1,83 @@
+armor:
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    schema_version: 1
+    id: minecraft:air
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    schema_version: 1
+    id: minecraft:air
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    schema_version: 1
+    id: minecraft:air
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    schema_version: 1
+    id: minecraft:air
+  offhand:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    schema_version: 1
+    id: minecraft:air
+charms: {}
+contents:
+  slot_0:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    id: minecraft:bow
+    count: 1
+    components:
+      minecraft:lore: '[{extra:["id: BOMB_CANNON"],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"---------------",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ability:
+        ",underlined:0b},{color:"dark_red",italic:0b,text:"Explosive Arrows"}],text:""},{extra:[{bold:0b,color:"dark_aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Fully
+        charged arrows fired from this bow",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"explode
+        upon impact.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"light_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"EPIC",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"---------------",underlined:0b}],text:""}]'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"dark_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bomb
+        Cannon ",underlined:0b},{color:"gold",italic:0b,text:"⚝⚝⚝⚝⚝"}],text:""}'
+      minecraft:item_name: '{extra:[{bold:0b,color:"dark_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Bomb
+        Cannon ",underlined:0b},{color:"gold",italic:0b,text:"⚝⚝⚝⚝⚝"}],text:""}'
+    schema_version: 1
+  slot_7:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    id: minecraft:iron_axe
+    count: 1
+    components:
+      minecraft:attribute_modifiers: '[{amount:13.0d,id:"minecraft:22e5af26-5dee-43cf-a172-82128657beb4",operation:"add_value",slot:"mainhand",type:"minecraft:attack_damage"},{amount:-3.4d,id:"minecraft:879ca7e1-b0f2-400b-a0e3-6ce4ce997886",operation:"add_value",slot:"mainhand",type:"minecraft:attack_speed"}]'
+      minecraft:lore: '[{extra:["id: VALKYRIE_AXE"],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"---------------",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"A
+        treasure against many enemies.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ability:
+        ",underlined:0b},{color:"dark_red",italic:0b,text:"Area Damage"}],text:""},{extra:[{bold:0b,color:"dark_aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Nearby
+        entities take 75% of the damage of your attack.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ability:
+        ",underlined:0b},{color:"dark_red",italic:0b,text:"Fire Storm"}],text:""},{extra:[{bold:0b,color:"dark_aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"A
+        vortex of fire engulfs entities in your path.",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Attacked
+        entities take massive knockback.",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Costs
+        15 durability and some hunger to use",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"14
+        Attack Damage",underlined:0b}],text:""},{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"0.6
+        Attack Speed",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"LEGENDARY",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"---------------",underlined:0b}],text:""}]'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Valkyrie
+        Axe ",underlined:0b},{color:"gold",italic:0b,text:"⚝⚝⚝⚝⚝"}],text:""}'
+      minecraft:item_name: '{extra:[{bold:0b,color:"dark_green",italic:0b,obfuscated:0b,strikethrough:0b,text:"Valkyrie
+        Axe ",underlined:0b},{color:"gold",italic:0b,text:"⚝⚝⚝⚝⚝"}],text:""}'
+      minecraft:damage: '10'
+    schema_version: 1
+  slot_8:
+    ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    id: minecraft:bow
+    count: 1
+    components:
+      minecraft:lore: '[{extra:["id: ARTEMIS_BOW"],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"---------------",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"yellow",italic:0b,obfuscated:0b,strikethrough:0b,text:"Ability:
+        ",underlined:0b},{color:"dark_red",italic:0b,text:"Heat Seeking Arrows"}],text:""},{extra:[{bold:0b,color:"dark_aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"Living
+        entities within ",underlined:0b},{color:"aqua",italic:0b,text:"3.8 "},{color:"dark_aqua",italic:0b,text:"blocks
+        of an arrow"}],text:""},{extra:[{bold:0b,color:"dark_aqua",italic:0b,obfuscated:0b,strikethrough:0b,text:"will
+        be targeted by fully charged shots.",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"LEFT
+        CLICK to cycle ability",underlined:0b}],text:""},"",{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"LEGENDARY",underlined:0b}],text:""},{extra:[{bold:0b,color:"gold",italic:0b,obfuscated:0b,strikethrough:0b,text:"---------------",underlined:0b}],text:""}]'
+      minecraft:custom_name: '{extra:[{bold:0b,color:"dark_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Artemis
+        Bow ",underlined:0b},{color:"gold",italic:0b,text:"⚝⚝⚝⚝⚝"}],text:""}'
+      minecraft:item_name: '{extra:[{bold:0b,color:"dark_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"Artemis
+        Bow ",underlined:0b},{color:"gold",italic:0b,text:"⚝⚝⚝⚝⚝"}],text:""}'
+    schema_version: 1
