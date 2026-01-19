@@ -1,0 +1,60 @@
+grave-id: 5a8cf20d-5472-4d72-ac18-b76f6e2f9b44
+owner-uuid: df010550-b4fc-3cdd-9f0e-e4cd9150ace8
+location:
+  ==: org.bukkit.Location
+  world: em_adventurers_guild
+  x: 295.0
+  y: 93.0
+  z: 219.0
+  pitch: 0.0
+  yaw: 0.0
+items:
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4556
+  id: minecraft:netherite_leggings
+  count: 1
+  components:
+    minecraft:attribute_modifiers: '[{amount:6.09d,id:"elitemobs:elite_armor",operation:"add_value",slot:"legs",type:"minecraft:armor"},{amount:3.0603d,id:"elitemobs:elite_toughness",operation:"add_value",slot:"legs",type:"minecraft:armor_toughness"},{amount:0.10300000000000001d,id:"elitemobs:elite_knockback_resist",operation:"add_value",slot:"legs",type:"minecraft:knockback_resistance"}]'
+    minecraft:lore: '[{extra:[{bold:1b,color:"gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"-------",underlined:0b},{bold:0b,color:"gray",italic:0b,strikethrough:0b,text:"<"},{bold:1b,color:"gray",italic:0b,strikethrough:0b,text:"Info
+      del Equipo"},{bold:0b,color:"gray",italic:0b,text:">"},{bold:1b,color:"gray",italic:0b,strikethrough:1b,text:"-------"}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Nivel
+      de Objeto: ",underlined:0b},{color:"white",italic:0b,text:"8 "},{color:"gray",italic:0b,text:"Prestigio
+      "},{color:"gold",italic:0b,text:"0"}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Armadura
+      del Elite: ",underlined:0b},{color:"dark_green",italic:0b,text:"2.0"}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Soulbound
+      to ",underlined:0b},{color:"white",italic:0b,text:"Skygge_21"}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Saqueado
+      de ",underlined:0b},{color:"dark_red",italic:0b,text:"「"},{color:"red",italic:0b,text:"1"},{color:"dark_red",italic:0b,text:"」"},{color:"white",italic:0b,text:"
+      "},{color:"dark_aqua",italic:0b,text:"Goblin con Armadura"}],text:""},{extra:[{bold:1b,color:"gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"-----------",underlined:0b},{bold:0b,color:"gray",italic:0b,strikethrough:0b,text:"<
+      "},{bold:1b,color:"white",italic:0b,text:"Lore"},{bold:0b,color:"gray",italic:0b,text:"
+      >"},{bold:1b,color:"gray",italic:0b,strikethrough:1b,text:"-----------"}],text:""},{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"¡Un
+      tesoro entre los trasgos!",underlined:0b}],text:""},{extra:[{bold:1b,color:"gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"--------",underlined:0b},{bold:0b,color:"gray",italic:0b,strikethrough:0b,text:"<"},{bold:1b,color:"blue",italic:0b,text:"Encantamientos"},{bold:0b,color:"gray",italic:0b,text:">"},{bold:1b,color:"gray",italic:0b,strikethrough:1b,text:""}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"◇",underlined:0b},{color:"gray",italic:0b,text:"Protección
+      contra proyectiles 1"}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"◇",underlined:0b},{color:"gray",italic:0b,text:"Irrompibilidad
+      1"}],text:""},{extra:[{bold:1b,color:"gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"----------",underlined:0b},{bold:0b,color:"gray",italic:0b,strikethrough:0b,text:"<
+      "},{bold:1b,color:"dark_purple",italic:0b,text:"Efectos"},{bold:0b,color:"gray",italic:0b,text:"
+      >"},{bold:1b,color:"gray",italic:0b,strikethrough:1b,text:"----------"}],text:""},{extra:[{bold:0b,color:"dark_purple",italic:0b,obfuscated:0b,strikethrough:0b,text:"◇Salto
+      mejorado",underlined:0b},{color:"gold",italic:0b,text:"⟲ 1"}],text:""},{extra:[{bold:1b,color:"gray",italic:0b,obfuscated:0b,strikethrough:1b,text:"-----------------------------",underlined:0b}],text:""},{extra:[{bold:0b,color:"gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Se
+      vende por 4.4 Monedas Elite",underlined:0b}],text:""}]'
+    minecraft:custom_name: '{extra:[{bold:0b,color:"dark_gray",italic:0b,obfuscated:0b,strikethrough:0b,text:"Perneras
+      de Trasgo",underlined:0b}],text:""}'
+    minecraft:enchantments: '{"minecraft:projectile_protection":1,"minecraft:unbreaking":1}'
+    minecraft:tooltip_display: '{hidden_components:["minecraft:attribute_modifiers","minecraft:enchantments"]}'
+    minecraft:custom_data: '{PublicBukkitValues:{"elitemobs:continuouspotioneffect":"JUMP_BOOST,0,self,continuous:","elitemobs:customlore":"§8¡Un
+      tesoro entre los trasgos!","elitemobs:elitemobsitem":1b,"elitemobs:enchantmentcount":2,"elitemobs:goblin_leggings.yml":"goblin_leggings.yml","elitemobs:itemsource":"§7Saqueado
+      de §4「§c1§4」§f §3Goblin con Armadura","elitemobs:itemvalue":88.0d,"elitemobs:prestige":0,"elitemobs:soulbind":"df010550-b4fc-3cdd-9f0e-e4cd9150ace8","minecraft:projectile_protection":1}}'
+    minecraft:damage: '98'
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4556
+  id: minecraft:carrot
+  count: 1
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4556
+  id: minecraft:netherite_sword
+  count: 1
+  components:
+    minecraft:enchantments: '{"minecraft:sharpness":5}'
+  schema_version: 1
+- ==: org.bukkit.inventory.ItemStack
+  DataVersion: 4556
+  id: minecraft:spawner
+  count: 1
+  schema_version: 1
